@@ -1,0 +1,75 @@
+.body {
+    background-color: black;
+}
+.class {
+    display: block;
+    position: absolute;
+    top: 121px;
+    left: 510px;
+}
+
+.explosion {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 2px;
+    width: 400px;
+    height: 300px;
+    left:400px;
+}
+
+.say {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 10px;
+    left: 1px;
+    width: 1000px;
+    height: 500px;
+}
+.snore {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+    
+}
+.atkBtn {
+    width: 175px;
+    height: 100px;
+    position: relative;
+    margin: 2px 0;
+    border-radius: 10px;
+    transition-duration: 1.25s;
+}
+
+.atkBtn:hover {
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(black 50%, transparent);
+    transition: background-color 2s;
+}
+.btnContain {
+    margin: 0 auto;
+    height: 210px;
+    width: 360px;
+}
+
+.slam {
+    background-color: white;
+}
+
+.handuken {
+    background-color:red;
+}
+
+.retro {
+    background-color:orange;
+}
+
+.rob {
+    background-color:green;
+    
+}
