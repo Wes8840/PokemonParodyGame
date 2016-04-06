@@ -20,3 +20,8 @@ I was attempting to use Twilio in an attempt to call the player that they lost/w
 
 # Next for the game
 I may attempt to add more encounters
+<br>
+<br>
+<br>
+<br>
+Sorry if it is messy
