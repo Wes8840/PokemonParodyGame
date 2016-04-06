@@ -5,7 +5,6 @@ var number =  prompt("Please enter your number:", "666-666-6666");
 var name = prompt("Please enter your name", "Harry Potter");
 var enemyHP = 999999999999999999999999999999999999999999999999999999; //Myholyf**ingJesusOurHolyLordAndSaviorWhatIsThisMonstrosityAndIAmFreakingOut!
 startGame();
-
 function startGame() {
 document.body.style.backgroundColor = "blue";
 myAudio = new Audio('battlemusic.mp3');
@@ -113,13 +112,12 @@ function userAttackDMG4() { //A Spanish project of creating a school, this is an
 }
 
 function win() {
-     callMe();
+     alert("Congratulations Prodigy! You have beaten Arceus, the Great Deity of All Pokemon! Have a treat from Temmie's Village.");
      setTimeout($(location).attr, 10000, 'href', 'http://play.pokemonshowdown.com');
-     myAudio.loop = false;
 }
 
 function lose() {
-    callMe2();
+    alert("I am sorry, Prodigy... But Arceus is too strong for you. You should practice with Pokemon Showdown.");
     setTimeout($(location).attr, 10000, 'href', 'http://play.pokemonshowdown.com');
 }
 
@@ -135,21 +133,3 @@ function instaWin() {
  function cheatFunction() {
      $("blue").toggle();   
 } 
-
-function callMe() {
-    if (number != null) {
-    client.makeCall({
-    to: number
-    from: '+18563145208';
-    body: "HI " + name + ", This is the Pokemon Parady Game Calling. We would like to congratulate you on beating the God Arceus and to enjoy a free redirect to Pokemon Showdown!!!";
-      
-    }
-}   
-function callMe2() {
-     if (number != null) {
-client.makeCall({
-    to: number
-    from: '+18563145208';
-    body: "HI " + name + ", This is the Pokemon Parady Game Calling. We are sorry for your loss against Arceus. Try better next time! Here is the online game Pokemon Showdown to work harder!!!";
-   }
-}
